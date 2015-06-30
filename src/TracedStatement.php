@@ -25,7 +25,6 @@ class TracedStatement
 
     protected $exception;
 
-
     public function __construct($method, array $params = array())
     {
         $this->method = $method;

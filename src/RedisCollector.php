@@ -135,7 +135,7 @@ class RedisCollector extends DataCollector implements Renderable, AssetProvider
         return array(
             "redis" => array(
                 "icon" => "inbox",
-                "widget" => "PhpDebugBar.Widgets.SQLQueriesWidget",
+                "widget" => "PhpDebugBar.Widgets.RedisQueriesWidget",
                 "map" => "redis",
                 "default" => "[]"
             ),
@@ -149,8 +149,8 @@ class RedisCollector extends DataCollector implements Renderable, AssetProvider
     public function getAssets()
     {
         return array(
-            'css' => 'widgets/sqlqueries/widget.css',
-            'js' => 'widgets/sqlqueries/widget.js'
+            'css' => 'widgets/redisqueries/widget.css',
+            'js' => 'widgets/redisqueries/widget.js'
         );
     }
 }
