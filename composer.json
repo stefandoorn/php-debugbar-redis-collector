@@ -13,6 +13,6 @@
     "maximebf/debugbar": "~1.0"
   },
   "autoload": {
-    "psr-0": {"DebugBar": "src/"}
+    "psr-0": {"RedisCollector": "src/"}
   }
 }

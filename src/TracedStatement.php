@@ -1,6 +1,6 @@
 <?php
 
-namespace DebugBar\DataCollector\Redis;
+namespace RedisCollector;
 
 /**
  * Holds information about a method call
